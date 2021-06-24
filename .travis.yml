@@ -1,4 +1,10 @@
 language: java
-jdk: 
+jdk:
 - openjdk11
-script: ant build
+addons:
+ sonarcloud:
+  organization: gianmattia
+  token: c1069c718a1ff2e3fceb8a74c58a3b24bf5215c2
+script:
+- ant build
+- sonar-scanner
