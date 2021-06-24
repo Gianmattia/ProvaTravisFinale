@@ -3,7 +3,7 @@ jdk:
 - openjdk11
 addons:
  sonarcloud:
-  organization: Gianmattia
+  organization: gianmattia
   token: 464a4569ae7bcb323c19af9a2eca05997bc8a0d5
 script:
 - ant build
