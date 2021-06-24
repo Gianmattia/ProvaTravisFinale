@@ -3,8 +3,8 @@ jdk:
 - openjdk11
 addons:
  sonarcloud:
-  organization: gianmattia
-  token: 6cc25f52a7879a20565103db1b50179b447fefe9
+  organization: "gianmattia"
+  token: "6cc25f52a7879a20565103db1b50179b447fefe9"
 script:
 - ant build
 - sonar-scanner
